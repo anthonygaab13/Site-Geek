@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="midia/Computer-Hardware-Joystick-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Crimson+Text&display=swap" rel="stylesheet">
+    <title>Jogos</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="cabecalho">
+            <div class="logo">
+                <a href="home.html"><img src="midia/controle-de-video-game.png" alt=""></a>
+                <a href="home.html"><h1>Geek Gamer</h1></a>
+            </div>
+            <div class="menu clearfix">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">&#127968;HOME</a></li>
+                        <li><a href="utilidade.html">&#128295;UTILIDADES</a></li>
+                        <li><a href="jogos.html">&#128126;JOGOS</a></li>
+                        <li><a href="contato.html">&#128241;CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-jogos">
+            <article class="dado">
+                <h1>Dado da sorte</h1>
+                <img id="face" src="img/face1.png" alt="">
+                <button onclick="dado();" class="botao-dado">JOGAR</button>
+            </article>
+
+            <article class="pedra-papel">
+                <div>
+                    <img src="img/pedra.png" alt="Pedra">
+                    <img src="img/papel.png" alt="Papel">
+                    <img src="img/tesoura.png" alt="Tesoura">
+                </div>
+                <div>
+                    <form action="" name="frmJogoPT">
+                        <label><input type="radio" name="grupo" id="pedra" class="botao-pedra-papel">Pedra</label>
+                        <label><input type="radio" name="grupo" id="papel" class="botao-pedra-papel">Papel</label>
+                        <label><input type="radio" name="grupo" id="tesoura" class="botao-pedra-papel">Tesoura</label>
+                        <div class="botao">
+                            <input type="button" value="JOGAR" onclick="jogar();" class="botao-pedra-papel-tesoura">
+                            <input type="button" value="RESET" onclick="resetar();" class="botao-pedra-papel-tesoura">
+                        </div>
+                    </form>
+                </div>
+
+                <div>
+                    <h3>Computador:</h3>
+                    <img src="img/pc.png" id="pc" alt="PC">
+                </div>
+
+                <div>
+                    <h3 id="placar"></h3>
+                </div>
+            </article>
+        </main>
+
+        <div id="main-rodape">
+            <footer class="rodape-prin">
+                <ul class="icones-sociais">
+                    <li><a href="#" target="_blank"><img src="midia/twitter.png" alt="Icone do Twitter"></a></li>
+                    <li><a href="#" target="_blank"><img src="midia/linkedin.png" alt="Icone do Linkedin"></a></li>
+                    <li><a href="#" target="_blank"><img src="midia/github.png" alt="Icone do GitHub"></a></li>
+                    <li><a href="#" target="_blank"><img src="midia/instagram.png" alt="Icone do Instagram"></a></li>
+                    <li><a href="#" target="_blank"><img src="midia/facebook.png" alt="Icone do Facebook"></a></li>
+                </ul>
+                &copy; Geek Gamer
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

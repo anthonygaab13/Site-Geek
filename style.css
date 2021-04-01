@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*----- Cabeçalho -----*/
+.cabecalho {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #1E1E26;
+    padding-bottom: 150px;
+    color: #3BB4B4;
+}
+/*----- Logo -----*/
+
+.logo {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+.logo img {
+    margin: 0 auto;
+    width: 35%;
+    padding: 10px;
+    padding-top: 20px;
+    height: auto;
+    float: left;
+}
+.logo h1 {
+    padding: 38px;
+    margin-left: 90px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+.logo a {
+    text-decoration: none;
+    color: #3BB4B4;
+}
+/*----- Menu  -----*/
+.menu {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+}
+.menu-icon{
+    display: none;
+}
+.menu ul {
+    margin-top: 5px;
+    text-align: center;
+    padding: 40px;
+    font-size: 5px;
+}
+.menu li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+.menu a {
+    text-decoration: none;
+    color: #3BB4B4;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*----- Corpo -----*/
+.corpo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    float: none;
+    padding-top: 100px;
+}
+.corpo p {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    color:#1E1E26;
+}
+
+/*----- Banner -----*/
+#banner {
+    max-width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+#banner img {
+    height: auto;
+    margin: 0 auto;
+}
+/*----- Rodapé -----*/
+.rodape-prin {
+    background-color: rgb(20, 20, 20);
+    clear: both;
+    padding: 28px;
+    color: #3BB4B4;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+.icones-sociais li {
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+.rodape-prin img {
+    max-width: 30px;
+}
+/*----- FINAL DO HOME -----*/
+
+/*------------CSS Site-UTILIDADES--------------*/
+.container-utilidades{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.titulos-utilidades{
+    font-size: 20px;
+}
+/*-------Caculadora Flex--------*/
+.box-calculadora-flex{
+    font-family: 'Press Start 2P', cursive;
+    height: 100%;
+    width: 48%;
+    background-color:white;
+    margin: 10px 0px 10px 0px;
+    display: block;
+    float: left;
+    color: #3BB4B4;
+    padding: 10px;
+}
+.box-calculadora-flex form input {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+.box-calculadora-flex form {
+    text-align: center;
+}
+.calculadora input{
+    text-align: center;
+}
+.botao-flex {
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    display: block;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    margin: 5px;
+}
+.botao-flex:hover {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+#resultado-flex{
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*-------Caculadora IMC--------*/
+.box-calculadora-imc{
+    height: auto;
+    width: 48%;
+    float: left;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.form-imc h2{
+    color: #3BB4B4;
+    font-family: 'Press Start 2P', cursive;
+    padding-bottom: 15px;
+}
+#formulario label{
+    display: inline-block;
+    width: 90px;
+    height: auto;
+    color:black;
+}
+#formulario legend{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#formulario div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+#formulario .botao{
+    text-align: center;
+    margin-top: 12px;
+}
+#formulario input{
+    text-align: center;
+}
+.botao-imc {
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+.botao-imc:hover {
+    color: #fff;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+/*------- Tabuada --------*/
+.box-tabuada{
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 40px;
+    color: #3BB4B4;
+    background-color: white;
+}
+.box-tabuada input{
+    text-align: center;
+}
+.tabuada{
+    margin-top: auto;
+}
+#resposta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#num {
+    margin-top: 20px;
+}
+.botao-tabu {
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    margin: 5px;
+}
+.botao-tabu:hover {
+    color: #fff;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+
+/*----- FINAL DO UTILIDADES -----*/
+
+/*----- Site Jogos -----*/
+
+.main-jogos {
+    height: auto;
+    padding: 150px;
+}
+.dado {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #3BB4B4;
+}
+.dado h1 {
+    padding: 10px;
+}
+.botao-dado {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    margin-top: 15px;
+}
+.pedra-papel {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #3BB4B4;
+}
+.pedra-papel form {
+    padding: 20px;
+}
+.pedra-papel input {
+    padding: 10px;
+    margin-top: 10px;
+}
+.pedra-papel h3 {
+    padding: 10px;
+}
+.botao-pedra-papel {
+    height: 20px;
+
+}
+.botao-pedra-papel-tesoura {
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+
+/*------ FIM DO SITE JOGOS -----*/
+
+/*----- Contato -----*/
+.form-contato {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding: 32px;
+    font-family: 'Press Start 2P', cursive;
+    color: #3BB4B4;
+    border: 1px solid #3BB4B4 ;
+    font-size: 25px;
+}
+.form-contato label {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form-contato legend {
+    padding: 40px;
+}
+.form-contato textarea {
+    width: 80%;
+    height: auto;
+    resize: none;
+}
+#enviar {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 40px;
+    background: orange;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    margin-top: 15px;
+}
+/*----- FIM DO SITE CONTATO -----*/
+
+ @media screen and (max-width: 992px) {
+    /* -------Site Home-------*/
+    .cabecalho {
+        padding-bottom: 50px;
+    }
+    .logo {
+        width: 100%;
+        float: none;
+       text-align: center;
+    }
+    .logo img {
+        width: 15%;
+        float: none;
+        display: inline;
+    }
+    .logo h1 {
+     display: none;
+    }
+    .menu {
+        width: 100%;
+        float: none;
+    }
+
+    /*----Site Utilidades------*/
+    .box-calculadora-flex{
+        float: none;
+        margin: 0 auto;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .botao-flex {
+        text-align: center;
+    }
+    .box-calculadora-imc{
+        float: none;   
+        margin: 0 auto; 
+        margin-top: 20px; 
+        line-height: 25px;
+    }
+    .box-tabuada{
+        float: none;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    /*---Site Jogos ----*/
+    .main-jogos {
+        padding: 50px;
+    }
+    .dado {
+        float: none;
+        width: 100%;
+    }
+    .pedra-papel {
+        float: none;
+        width: 100%;
+        padding-top: 55px;
+    }
+
+    /*----- Site contato----*/
+    .form-contato {
+        margin-top: 60px;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* -------Site Home-------*/
+    .cabecalho {
+        padding-bottom: 50px; 
+    }
+    .logo {
+        width: 100%;
+        float: none;
+       text-align: center;
+    }
+    .logo img {
+        width: 15%;
+        float: none;
+        display: inline;
+    }
+    .logo h1 {
+     display: none;
+    }
+    .menu {
+        float: none;
+    }
+    .menu li {
+        display: block;
+    }
+
+    /*----Calculadora Flex----*/
+    .box-calculadora-flex{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .calculadora{
+        border: 1px solid #3BB4B4;
+    }
+    .box-calculadora-flex h1{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*----IMC------*/
+    .box-calculadora-imc{
+        width: 100%;
+        border: 1px solid #3BB4B4;
+    }
+
+    /*-------Tabuada------*/
+    .box-tabuada{
+        padding: 10px;
+        border: 1px solid #3BB4B4 ;
+    }
+    .tabuada h2{
+        font-size: 15px;
+    } 
+
+    /*----- Jogos -----*/ 
+    .dado {
+        float: none;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .pedra-papel {
+        float: none;
+        width: 100%;
+    }
+    /*----- Contato -----*/
+    .form-contato {
+        width: 90%;
+    }
+}
